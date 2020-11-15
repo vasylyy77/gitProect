@@ -1,0 +1,60 @@
+body {
+  background-color: #2205f8;
+}
+
+.popdarck {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 10;
+}
+
+.pop__btn {
+  padding: 5px;
+  width: 100px;
+  margin: 20px auto;
+  background-color: #2205f8;
+}
+
+.pop__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 400px;
+  width: 300px;
+  margin: 150px auto;
+  background-color: #fff;
+}
+
+.pop__inp {
+  margin: 20px;
+}
+
+.pop__lab {
+  font-weight: 800;
+}
+
+.pop__wrap {
+  z-index: 100;
+  position: absolute;
+  top: 50px;
+  left: 500px;
+}
+
+.wrap {
+  text-align: center;
+  padding-top: 150px;
+}
+
+.btn {
+  background-color: #2074d4;
+}
+/*# sourceMappingURL=main.css.map */
